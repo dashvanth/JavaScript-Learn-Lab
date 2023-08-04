@@ -45,3 +45,26 @@ myFun();  //function calling
 console.log(typeof myFun);
 
 
+// +++++++++++++++++++++++++++++++++++
+
+// Stack (primitive), heap (Non-primitive)
+
+let myYoutubeName = "itsonyou";
+let anotherName = myYoutubeName;
+
+anotherId = "onyouown";
+
+console.log(myYoutubeName);
+console.log(anotherId);
+
+
+let userOne = {
+    email: "dashvanth@goog.com",
+    password: 121212
+};
+
+let userTwo = userOne;
+
+userTwo.email="dash@google.com"
+console.log(userTwo);
+console.log(userOne);
