@@ -32,3 +32,34 @@ function loginUserName(username){
     return `${username} just logged in.`;
 }
 console.log(loginUserName());
+
+
+function calCartPrice(val1, val2, ...num1){
+    return num1;
+}
+
+console.log(calCartPrice(200, 300, 4000, 5000));
+
+
+const user = {
+    username : "dashvanth",
+    password : 1001
+}
+
+function handleObject(anyobject){
+    console.log(`Username is ${anyobject.username}, password is ${anyobject.password}.`);
+}
+// handleObject(user);
+handleObject({
+    username : "dash",
+    password : 1100
+})
+
+
+const comedyFilms = [ 'AmericanPie', 'Hangover', 'Horriblebosses', 'wearethemillers'];
+
+function favFilms(anyarray){
+    console.log(`my 1st fav film is ${anyarray[0]} and 2nd fav is ${anyarray[1]}.`);
+}
+// favFilms(comedyFilms);
+favFilms(['herapheri, golmaal'])
