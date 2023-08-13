@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM | chai aur <code></code></title>
+</head>
+<body style="background-color: black; color: white;">
+    <ul class="language">
+        <li>JavaScript</li>
+    </ul>
+</body> 
+    <script>
+        function addLang(langName){
+            const language = document.querySelector('.language');
+            const li =document.createElement('li');
+            li.innerText = langName;
+            language.appendChild(li);
+        }
+        addLang('python');
+        addLang('java');
+
+        function addOptLang(langName){
+            const li = document.createElement('li');
+            const addText = document.createTextNode(langName);
+            li.appendChild(addText);
+            document.querySelector('.language').appendChild(li)
+        }
+        addOptLang('c++');
+
+
+        // Edit 
+        const secLang = document.querySelector('li:nth-child(2)');
+        // secLang.innerHTML = "mojo";
+        const newli = document.createElement('li');
+        newli.textContent = "mojo";
+        secLang.replaceWith(newli)
+        
+        // edit 
+        const firstLang = document.querySelector('li:nth-child(1)');
+        console.log(firstLang);
+        const newlist = document.createElement('li');
+        newlist.textContent = "goLang";
+        firstLang.replaceWith(newlist)
+
+        // remove 
+        const lastLang = document.querySelector('li:last-child');
+        console.log(lastLang.innerText);
+        lastLang.remove()
+    </script>
+</html>
