@@ -1,4 +1,4 @@
-z# 🚀 My JavaScript Journey 🚀
+# 🚀 My JavaScript Journey 🚀
 
 🎥 **Channel Playlist: [Chai Aur JavaScript by Hitesh Choudhary](https://www.youtube.com/watch?v=Hr5iLG7sUa0&list=PLu71SKxNbfoBuX3f4EOACle2y-tRC5Q37)**
 
@@ -27,6 +27,11 @@ As I move forward, I can expect to:
 🌟 Complete a final project showcasing my newly acquired skills! 🏆
 
 ## Projects:
+
+  ### 01 Background Color Changer: [click here to see](https://color-changer-background.netlify.app/)
+
+  ### 02 Body Mass Calculator: [click here to see](https://new-body-mass-calculator.netlify.app/)
+
 
 Throughout this journey, I'll work on exciting projects inspired by the "Chai Aur Code" YouTube channel taught by the incredible Hitesh Choudhary. I'll follow his fantastic "Chai Aur JavaScript" playlist to dive deep into JavaScript and build practical applications. 🎥📚
 
