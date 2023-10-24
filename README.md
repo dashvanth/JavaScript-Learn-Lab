@@ -33,6 +33,6 @@ As I move forward, I can expect to:
   ### 02 Body Mass Calculator: [click here to see](https://new-body-mass-calculator.netlify.app/)
 
 
-Throughout this journey, I'll work on exciting projects inspired by the "Chai Aur Code" YouTube channel taught by the incredible Hitesh Choudhary. I'll follow his fantastic "Chai Aur JavaScript" playlist to dive deep into JavaScript and build practical applications. 🎥📚
+Throughout this journey, I'll work on exciting projects inspired by the "Chai Aur Code" YouTube channel taught by the incredible Hitesh Choudhary.  I'll follow his fantastic "Chai Aur JavaScript" playlist to dive deep into JavaScript and build practical applications. 🎥📚
 
 Let's embark on this incredible journey together, and soon I'll be crafting impressive web applications with confidence!💪💻
